@@ -19,7 +19,6 @@ hash = {
 	}
 }
 
-# p hash["name"][:first],["name"][:last],["father"]["name"][:first],["father"]["name"][:last]
 p hash["name"].values
 p hash["father"]["name"].values
 p hash["father"]["father"]["name"].values
