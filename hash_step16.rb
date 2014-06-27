@@ -21,5 +21,5 @@ hash = {
 
 p hash["name"].values
 p hash["father"]["name"].values
-p hash["father"]["father"]["name"].values
+p hash["father"]["father"]["name"][:first]
 p hash["father"]["father"]["father"]
