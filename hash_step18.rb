@@ -19,7 +19,3 @@ garage_inventory.each do |item|
 end
 
 # Print out the total value of inventory: all the items quantity * their prices, respectively.
-p total_inv_val = garage_inventory.each do |item|
-	value = item[:price].to_f * item[:quantity]
-	value.collect.sum
-end
